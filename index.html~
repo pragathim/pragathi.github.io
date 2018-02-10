@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+
+    <title>pragathi</title>
+  </head>
+  <body>
+<div class="container">
+<!--menu start-->
+
+<!--menu end-->
+    <!-- menu start-->
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Pragathi</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Education</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Skills</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+</div>
+<!-- menu end-->
+
+<div class="container" id=Pragathi>
+<div class="row">
+  <div class="col-4" ><img src="https://static.pexels.com/photos/87840/daisy-pollen-flower-nature-87840.jpeg" class="img-fluid"></div>
+  <div class="col-8"class="font-italic">M.Pragathi<br>pragathim99@gmail.com<br>9894504362</div>
+</div>
+</div>
+<div class="container" id="edu">
+<section>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">s.no</th>
+      <th scope="col">education</th>
+      <th scope="col">Board/university</th>
+      <th scope="col">percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>12th</td>
+      <td>staeboard</td>
+      <td>80%</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>B.Thech IT</td>
+      <td>Anna university</td>
+      <td>80%</td>
+    </tr>
+  </tbody>
+</table>
+
+</section>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.1.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/popper.minjs" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>
